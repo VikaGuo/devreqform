@@ -3,7 +3,7 @@
   "properties": {
     "ishomescreen": {
       "type": "identifier",
-      "selector": "img='images/whm.gif']",
+      "selector": "img[src='images/whm.gif']",
       "control": "exists"
     }
   },
