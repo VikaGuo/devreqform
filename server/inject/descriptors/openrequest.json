@@ -38,7 +38,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 4,
+            "control": "property.innerText"
           },
           "requestorname": {
             "type": "string",
