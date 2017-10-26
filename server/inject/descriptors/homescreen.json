@@ -21,7 +21,7 @@
     "expandMasterData": {
       "type": "string",
       "selector": {
-        "fn": "function(param){console.log(param);var foo=param.querySelectorAll('li');for(var i=0;i<foo.length;i+=1){if(foo[i].innerText==='MasterData'){console.log('Found: '+foo[i])}else{console.log('Not Found: '+foo[i])}return param}",
+        "fn": "function(param){console.log(param);var foo=param.querySelectorAll('li');for(var i=0;i<foo.length;i+=1){var bar=foo[i].innerText;console.log(bar);if(bar==='MasterData'){console.log('Found: '+foo[i])}else{console.log('Not Found: '+foo[i])}return param}",
         "selector": "ul[type='tree']"
       },
       "control": "property.innerHTML"
