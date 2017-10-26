@@ -29,8 +29,8 @@
       "model": "login"
     },
     {
-      "id": "tableviewadvancedcool",
-      "name": "TableView Advanced-Cool",
+      "id": "openrequest",
+      "name": "openrequest",
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
       "sourceAppId": "universaltemplates",
       "model": "tableviewadvancedcool"

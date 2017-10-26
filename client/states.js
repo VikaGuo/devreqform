@@ -42,12 +42,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.tableviewadvancedcool', {
+    }).state('app.openrequest', {
         views: {
             app: {
-                controller: 'app_tableviewadvancedcool',
+                controller: 'app_openrequest',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.tableviewadvancedcool');
+                    return app.templateProvider('app.openrequest');
                 }
             }
         }
