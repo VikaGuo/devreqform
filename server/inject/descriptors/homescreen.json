@@ -43,6 +43,14 @@
     {
       "match": [
         "ishomescreen",
+        "isITAssetExanded",
+        "isMasterDataExpanded"
+      ],
+      "action": "assetCatLink"
+    },
+    {
+      "match": [
+        "ishomescreen",
         "isITAssetExanded"
       ],
       "action": "expandMasterData"
