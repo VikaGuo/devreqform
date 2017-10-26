@@ -40,7 +40,7 @@
                     </div>
                     <div class="row" data-comp-id="row.4"
                         style="margin: 12px 0px 0px; padding: 0px 12px;">
-                        <div class="col" data-comp-id="column.4">
+                        <div class="col col-33" data-comp-id="column.4">
                             <div data-comp-id="text.5" style="font-size: 12px; font-weight: bold;">Owner</div>
                             <div data-comp-id="text.6" ng-bind="item.createdowner"
                                 style="line-height: 18px;">minor</div>
@@ -52,13 +52,15 @@
                         </div>
                     </div>
                     <div class="row" data-comp-id="row.5" style="padding: 0px 12px; margin: 0px;">
-                        <div class="col" data-comp-id="column.6">
-                            <div data-comp-id="text.9" style="font-size: 12px; font-weight: bold;">UPDATED</div>
-                            <div data-comp-id="text.10" ng-bind="item.updated" style="line-height: 18px;">2017-06-20</div>
+                        <div class="col col-33" data-comp-id="column.6">
+                            <div data-comp-id="text.9" style="font-size: 12px; font-weight: bold;">Updated by</div>
+                            <div data-comp-id="text.10" ng-bind="item.updatedowner"
+                                style="line-height: 18px;">2017-06-20</div>
                         </div>
                         <div class="col" data-comp-id="column.7">
-                            <div data-comp-id="text.11" style="font-size: 12px; font-weight: bold;">ASSIGNED TO</div>
-                            <div data-comp-id="text.12" ng-bind="item.assignedto" style="line-height: 18px;">Ryan Smith</div>
+                            <div data-comp-id="text.11" style="font-size: 12px; font-weight: bold;">Updated on</div>
+                            <div data-comp-id="text.12" ng-bind="item.updateddatetime"
+                                style="line-height: 18px;">Ryan Smith</div>
                         </div>
                     </div>
                 </div>
