@@ -52,59 +52,47 @@
         "items": {
           "type": "object",
           "properties": {
-            "rowid": {
+            "tableid": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "reqowner": {
+            "sidecode": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "sitecode": {
+            "categorycode": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "formno": {
+            "categoryname": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "requestorname": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "submitdate": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "status": {
+            "isactive": {
               "type": "string"
             },
-            "pendingdate": {
+            "createdowner": {
               "type": "string"
             },
-            "pendingapprover": {
+            "createddatetime": {
               "type": "string"
             },
-            "completeddate": {
-              "type": "string"
-            },
-            "applicationname": {
+            "updatedowner": {
               "type": "string",
               "update": {
                 "type": "none"
               }
+            },
+            "updateddatetime": {
+              "type": "string"
             }
           }
         },
