@@ -20,7 +20,10 @@
     },
     "expandMasterData": {
       "type": "string",
-      "selector": "span",
+      "selector": {
+        "fn": "function(param){return param}",
+        "selector": "span"
+      },
       "control": "property.innerHTML",
       "selectContains": "MasterData"
     }
