@@ -59,13 +59,19 @@
               }
             },
             "sidecode": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "categorycode": {
               "type": "string"
             },
             "categoryname": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "isactive": {
               "type": "string"
