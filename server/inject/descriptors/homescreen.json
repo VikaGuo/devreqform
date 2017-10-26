@@ -21,7 +21,7 @@
     "expandMasterData": {
       "type": "string",
       "selector": "div.l-body",
-      "control": "action.link",
+      "control": "property.innerHTML",
       "selectContains": "MasterData"
     },
     "isMasterDataExpanded": {
