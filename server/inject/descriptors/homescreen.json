@@ -8,9 +8,8 @@
     },
     "itAssetServiceSystemLink": {
       "type": "action",
-      "selector": "img",
-      "control": "action.link",
-      "selectContains": "IT Asset Service System"
+      "selector": "div",
+      "control": "property.innerHTML"
     }
   },
   "connect": []
