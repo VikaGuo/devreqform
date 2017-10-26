@@ -93,6 +93,41 @@
         "update": {
           "type": "none"
         }
+      },
+      "requestlist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "tableid": {
+              "type": "string"
+            },
+            "sidecode": {
+              "type": "string"
+            },
+            "categorycode": {
+              "type": "string"
+            },
+            "categoryname": {
+              "type": "string"
+            },
+            "isactive": {
+              "type": "string"
+            },
+            "createdowner": {
+              "type": "string"
+            },
+            "createddatetime": {
+              "type": "string"
+            },
+            "updatedowner": {
+              "type": "string"
+            },
+            "updateddatetime": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   }
