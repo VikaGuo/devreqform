@@ -20,9 +20,8 @@
     },
     "expandMasterData": {
       "type": "string",
-      "selector": "div.l-body",
-      "control": "property.innerHTML",
-      "selectContains": "Asset Operations"
+      "selector": "ul[type='tree']",
+      "control": "property.innerHTML"
     },
     "isMasterDataExpanded": {
       "type": "identifier",
