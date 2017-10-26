@@ -25,7 +25,7 @@
         "selector": "div.l-body"
       },
       "control": "property.innerHTML",
-      "selectContains": "MasterData"
+      "selectContains": "PO Receiving"
     },
     "isMasterDataExpanded": {
       "type": "identifier",
