@@ -50,7 +50,10 @@
             "control": "property.innerText"
           },
           "updatedowner": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 8,
+            "control": "property.innerText"
           },
           "updateddatetime": {
             "type": "string"
