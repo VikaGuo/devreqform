@@ -24,8 +24,7 @@
         "fn": "function(param){console.log(param);return param}",
         "selector": "div.l-body"
       },
-      "control": "property.innerHTML",
-      "selectContains": "PO Receiving"
+      "control": "property.innerHTML"
     },
     "isMasterDataExpanded": {
       "type": "identifier",
