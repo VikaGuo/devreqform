@@ -47,22 +47,37 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 5,
+            "control": "property.innerText"
           },
           "submitdate": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 6,
+            "control": "property.innerText"
           },
           "status": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 7,
+            "control": "property.innerText"
           },
           "pendingdate": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 9,
+            "control": "property.innerText"
           },
           "pendingapprover": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 8,
+            "control": "property.innerText"
           },
           "completeddate": {
             "type": "string"
