@@ -14,8 +14,8 @@
     },
     "isITAssetExanded": {
       "type": "identifier",
-      "selector": "div.l-box.l-tree-icon.l-tree-icon-folder.",
-      "control": "exists",
+      "selector": "div.l-box.l-tree-icon.l-tree-icon-folder.>span",
+      "control": "property.innerHTML",
       "selectContains": "MasterData"
     }
   },
