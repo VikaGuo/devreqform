@@ -17,6 +17,12 @@
       "selector": "span",
       "control": "exists",
       "selectContains": "MasterData"
+    },
+    "expandMasterData": {
+      "type": "action",
+      "selector": "span",
+      "control": "property.innerHTML",
+      "selectContains": "MasterData"
     }
   },
   "connect": []
