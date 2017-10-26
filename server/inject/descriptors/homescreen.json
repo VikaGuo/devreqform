@@ -20,7 +20,7 @@
     },
     "expandMasterData": {
       "type": "action",
-      "selector": "div.l-body::first-child",
+      "selector": "div.l-body",
       "control": "action.link",
       "selectContains": "MasterData"
     }
