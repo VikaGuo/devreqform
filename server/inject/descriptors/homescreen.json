@@ -28,6 +28,12 @@
       "selector": "span",
       "control": "exists",
       "selectContains": "Asset Category(Master)"
+    },
+    "assetCatLink": {
+      "type": "action",
+      "selector": "span",
+      "control": "action.link",
+      "selectContains": "Asset Category(Master)"
     }
   },
   "connect": []
