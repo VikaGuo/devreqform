@@ -22,6 +22,12 @@
       "type": "action",
       "selector": "div.l-body.l-selected > div:first-child",
       "control": "action.link"
+    },
+    "isMasterDataExpanded": {
+      "type": "identifier",
+      "selector": "span",
+      "control": "exists",
+      "selectContains": "Asset Category(Master)"
     }
   },
   "connect": []
