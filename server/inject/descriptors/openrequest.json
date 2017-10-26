@@ -20,7 +20,10 @@
             "control": "property.innerText"
           },
           "categorycode": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 3,
+            "control": "property.innerText"
           },
           "categoryname": {
             "type": "string"
