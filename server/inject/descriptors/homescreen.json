@@ -20,7 +20,7 @@
     },
     "expandMasterData": {
       "type": "string",
-      "selector": "div span",
+      "selector": "div.l-body",
       "control": "property.innerHTML",
       "selectContains": "MasterData"
     }
