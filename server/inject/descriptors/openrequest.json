@@ -68,8 +68,9 @@
     },
     "isOpenRequest": {
       "type": "identifier",
-      "selector": ".l-tree",
-      "control": "property.innerText"
+      "selector": "div.l-tab-links li",
+      "control": "exists",
+      "selectContains": "Asset Category(Master)"
     }
   },
   "connect": []
