@@ -9,7 +9,7 @@
     "itAssetServiceSystemLink": {
       "type": "action",
       "selector": "div.l-accordion-header-inner",
-      "control": "property.innerHTML",
+      "control": "action.link",
       "selectContains": "IT Asset Service System"
     }
   },
