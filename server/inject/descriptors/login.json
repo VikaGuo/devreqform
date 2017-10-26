@@ -26,13 +26,6 @@
       "selector": "#txtPassword",
       "control": "text"
     },
-    "errorMessage": {
-      "type": "string",
-      "label": "errorMessage",
-      "update": {
-        "type": "none"
-      }
-    },
     "submit": {
       "type": "action",
       "parameters": {
@@ -45,6 +38,15 @@
       },
       "selector": "#btnLogin",
       "control": "action.button"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "label": "errorMessage",
+      "update": {
+        "type": "none"
+      },
+      "selector": "#btnLogin[value=\"LOGIN\"]",
+      "control": "exists"
     }
   },
   "connect": []
