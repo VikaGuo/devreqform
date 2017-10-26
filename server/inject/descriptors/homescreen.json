@@ -19,9 +19,10 @@
       "selectContains": "MasterData"
     },
     "expandMasterData": {
-      "type": "action",
-      "selector": "div.l-box.l-expandable-open",
-      "control": "action.link"
+      "type": "string",
+      "selector": "div.l-body",
+      "control": "action.link",
+      "selectContains": "MasterData"
     },
     "isMasterDataExpanded": {
       "type": "identifier",
