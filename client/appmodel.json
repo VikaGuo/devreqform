@@ -52,41 +52,50 @@
         "items": {
           "type": "object",
           "properties": {
-            "id": {
+            "tableid": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "summary": {
+            "sitecode": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "status": {
+            "categorycode": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "severity": {
+            "categoryname": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "assignedto": {
+            "isactive": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "updated": {
+            "creatowner": {
               "type": "string",
               "update": {
                 "type": "none"
               }
+            },
+            "createddatetime": {
+              "type": "string"
+            },
+            "updatedowner": {
+              "type": "string"
+            },
+            "updateddatetime": {
+              "type": "string"
             }
           }
         },
