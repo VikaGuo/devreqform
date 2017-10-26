@@ -101,7 +101,10 @@
               "type": "string"
             },
             "applicationname": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         },
