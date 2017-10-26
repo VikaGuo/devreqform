@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
     // Start URL that browsing should start at.
-    startURL: 'https://appcenterweb.flextronics.com/AppCenter/Login.aspx?Action=logout',
+    startURL: 'http://hkdnt965/AppCenter2Test/Login.aspx?Action=logout',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
