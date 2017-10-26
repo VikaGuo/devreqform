@@ -21,7 +21,7 @@
     "expandMasterData": {
       "type": "string",
       "selector": {
-        "fn": "",
+        "fn": "function(param){console.log(param);return param}",
         "selector": "span"
       },
       "control": "property.innerHTML",
