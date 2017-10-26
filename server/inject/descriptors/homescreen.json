@@ -8,7 +8,7 @@
     },
     "itAssetServiceSystemLink": {
       "type": "action",
-      "selector": "div",
+      "selector": "div > img",
       "control": "action.link",
       "selectContains": "IT Asset Service System"
     }
