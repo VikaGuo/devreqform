@@ -47,46 +47,61 @@
     "type": "object",
     "comment": "issueslist",
     "properties": {
-      "issueslist": {
+      "requestlist": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
-            "id": {
+            "rowid": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "summary": {
+            "reqowner": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "sitecode": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "formno": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "requestorname": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "submitdate": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
             "status": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
+              "type": "string"
             },
-            "severity": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
+            "pendingdate": {
+              "type": "string"
             },
-            "assignedto": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
+            "pendingapprover": {
+              "type": "string"
             },
-            "updated": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
+            "completeddate": {
+              "type": "string"
+            },
+            "applicationname": {
+              "type": "string"
             }
           }
         },

@@ -1,44 +1,44 @@
 {
-  "issueslist": [
+  "requestlist": [
     {
-      "id": "0000506",
-      "severity": "minor",
-      "updated": "2017-06-20",
-      "status": "new",
-      "summary": "Pellentesque ut enim ac sem mollis pharetra quis id arcu. Donec facilisis diam quis eleifend rutrum.",
-      "assignedto": "Ryan Smith"
+      "rowid": "0000506",
+      "reqowner": "Pellentesque ut enim ac sem mollis pharetra quis id arcu. Donec facilisis diam quis eleifend rutrum.",
+      "sitecode": "new",
+      "formno": "minor",
+      "requestorname": "Ryan Smith",
+      "submitdate": "2017-06-20"
     },
     {
-      "id": "0000507",
-      "severity": "feature",
-      "updated": "2017-06-19",
-      "status": "assigned",
-      "summary": "Ut dignissim vitae metus sed lacinia. Cras pulvinar mauris leo",
-      "assignedto": "Lisa Wagner"
+      "rowid": "0000507",
+      "reqowner": "Ut dignissim vitae metus sed lacinia. Cras pulvinar mauris leo",
+      "sitecode": "assigned",
+      "formno": "feature",
+      "requestorname": "Lisa Wagner",
+      "submitdate": "2017-06-19"
     },
     {
-      "id": "0000508",
-      "severity": "trivial",
-      "updated": "2017-06-14",
-      "status": "confirmed",
-      "summary": "In hac habitasse platea dictumst. Phasellus consequat bibendum blandit.",
-      "assignedto": "Dean Watts"
+      "rowid": "0000508",
+      "reqowner": "In hac habitasse platea dictumst. Phasellus consequat bibendum blandit.",
+      "sitecode": "confirmed",
+      "formno": "trivial",
+      "requestorname": "Dean Watts",
+      "submitdate": "2017-06-14"
     },
     {
-      "id": "0000509",
-      "severity": "minor",
-      "updated": "2017-06-13",
-      "status": "resolved",
-      "summary": "Aliquam ac posuere nulla, vitae lacinia ligula. Vestibulum ante.",
-      "assignedto": "Sheila Steward"
+      "rowid": "0000509",
+      "reqowner": "Aliquam ac posuere nulla, vitae lacinia ligula. Vestibulum ante.",
+      "sitecode": "resolved",
+      "formno": "minor",
+      "requestorname": "Sheila Steward",
+      "submitdate": "2017-06-13"
     },
     {
-      "id": "0000510",
-      "severity": "minor",
-      "updated": "2017-06-12",
-      "status": "closed",
-      "summary": "Duis dictum ligula ut finibus pharetra.",
-      "assignedto": "Bradley Hall"
+      "rowid": "0000510",
+      "reqowner": "Duis dictum ligula ut finibus pharetra.",
+      "sitecode": "closed",
+      "formno": "minor",
+      "requestorname": "Bradley Hall",
+      "submitdate": "2017-06-12"
     }
   ]
 }
