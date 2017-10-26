@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "ishomescreen": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
