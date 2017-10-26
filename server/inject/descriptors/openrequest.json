@@ -14,7 +14,10 @@
             "control": "property.innerText"
           },
           "sidecode": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 2,
+            "control": "property.innerText"
           },
           "categorycode": {
             "type": "string"
