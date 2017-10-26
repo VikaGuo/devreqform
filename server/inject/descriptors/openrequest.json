@@ -7,37 +7,31 @@
       "items": {
         "type": "object",
         "properties": {
-          "rowid": {
+          "tableid": {
             "type": "string"
           },
-          "reqowner": {
+          "sidecode": {
             "type": "string"
           },
-          "sitecode": {
+          "categorycode": {
             "type": "string"
           },
-          "formno": {
+          "categoryname": {
             "type": "string"
           },
-          "requestorname": {
+          "isactive": {
             "type": "string"
           },
-          "submitdate": {
+          "createdowner": {
             "type": "string"
           },
-          "status": {
+          "createddatetime": {
             "type": "string"
           },
-          "pendingdate": {
+          "updatedowner": {
             "type": "string"
           },
-          "pendingapprover": {
-            "type": "string"
-          },
-          "completeddate": {
-            "type": "string"
-          },
-          "applicationname": {
+          "updateddatetime": {
             "type": "string"
           }
         }
