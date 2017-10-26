@@ -86,7 +86,10 @@
             "control": "property.innerText"
           },
           "applicationname": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 11,
+            "control": "property.innerText"
           }
         }
       },
