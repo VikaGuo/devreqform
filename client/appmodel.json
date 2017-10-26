@@ -77,10 +77,16 @@
               "type": "string"
             },
             "createdowner": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "createddatetime": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "updatedowner": {
               "type": "string"

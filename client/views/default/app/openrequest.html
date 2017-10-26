@@ -23,6 +23,9 @@
                             <div data-comp-id="text.13" style="font-size: 12px; font-weight: bold;">Site Code</div>
                             <div data-comp-id="text.14" ng-bind="item.sidecode">Some text</div>
                         </div>
+                        <div class="col col-10" data-comp-id="column.11">
+                            <i class="icon ion-ios-circle-outline" data-comp-id="icon.2"></i>
+                        </div>
                     </div>
                     <div class="row" data-comp-id="row.3"
                         style="padding: 0px 12px; margin: 4px 0px;">
@@ -38,12 +41,14 @@
                     <div class="row" data-comp-id="row.4"
                         style="margin: 12px 0px 0px; padding: 0px 12px;">
                         <div class="col" data-comp-id="column.4">
-                            <div data-comp-id="text.5" style="font-size: 12px; font-weight: bold;">SEVERITY</div>
-                            <div data-comp-id="text.6" ng-bind="item.severity" style="line-height: 18px;">minor</div>
+                            <div data-comp-id="text.5" style="font-size: 12px; font-weight: bold;">Owner</div>
+                            <div data-comp-id="text.6" ng-bind="item.createdowner"
+                                style="line-height: 18px;">minor</div>
                         </div>
                         <div class="col" data-comp-id="column.5">
-                            <div data-comp-id="text.7" style="font-size: 12px; font-weight: bold;">STATUS</div>
-                            <div data-comp-id="text.8" ng-bind="item.status" style="line-height: 18px;">assigned</div>
+                            <div data-comp-id="text.7" style="font-size: 12px; font-weight: bold;">Created on</div>
+                            <div data-comp-id="text.8" ng-bind="item.createddatetime"
+                                style="line-height: 18px;">assigned</div>
                         </div>
                     </div>
                     <div class="row" data-comp-id="row.5" style="padding: 0px 12px; margin: 0px;">
