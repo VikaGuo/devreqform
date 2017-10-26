@@ -20,7 +20,7 @@
     },
     "expandMasterData": {
       "type": "action",
-      "selector": "div.l-body > div:first-child",
+      "selector": "div.l-box.l-expandable-open",
       "control": "action.link"
     },
     "isMasterDataExpanded": {
