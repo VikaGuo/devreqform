@@ -3,8 +3,8 @@
   "properties": {
     "ishomescreen": {
       "type": "identifier",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "img='images/whm.gif']",
+      "control": "exists"
     }
   },
   "connect": []
