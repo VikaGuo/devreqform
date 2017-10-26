@@ -21,7 +21,7 @@
     "expandMasterData": {
       "type": "action",
       "selector": {
-        "fn": "function(param){var foo=param.querySelectorAll('li span');for(var i=0;i<foo.length;i+=1){var bar=foo[i].innerText;if(bar==='Asset Operation'){return foo[i].parentNode.childNodes[0]}}};",
+        "fn": "function(param){var foo=param.querySelectorAll('li span');for(var i=0;i<foo.length;i+=1){var bar=foo[i].innerText;if(bar==='MasterData'){return foo[i].parentNode.childNodes[0]}}};",
         "selector": "ul[type='tree']"
       },
       "control": "action.link"
