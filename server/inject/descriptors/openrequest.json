@@ -63,7 +63,7 @@
           }
         }
       },
-      "frameSelector": "iframe[src*='loading.aspx]",
+      "frameSelector": "iframe[src*='loading.aspx']",
       "selectorAll": ".ListTable tbody tr"
     },
     "isOpenRequest": {
