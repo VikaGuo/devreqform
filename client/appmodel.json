@@ -53,7 +53,10 @@
           "type": "object",
           "properties": {
             "tableid": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "sidecode": {
               "type": "string"
