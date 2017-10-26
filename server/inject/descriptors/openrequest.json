@@ -26,7 +26,10 @@
             "control": "property.innerText"
           },
           "categoryname": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 3,
+            "control": "property.innerText"
           },
           "isactive": {
             "type": "string"
