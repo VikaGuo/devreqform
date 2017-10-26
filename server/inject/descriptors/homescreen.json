@@ -45,6 +45,13 @@
         "ishomescreen"
       ],
       "action": "itAssetServiceSystemLink"
+    },
+    {
+      "match": [
+        "ishomescreen",
+        "isITAssetExanded"
+      ],
+      "action": "expandMasterData"
     }
   ]
 }
