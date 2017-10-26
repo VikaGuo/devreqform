@@ -32,13 +32,22 @@
             "control": "property.innerText"
           },
           "isactive": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 5,
+            "control": "property.innerText"
           },
           "createdowner": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 6,
+            "control": "property.innerText"
           },
           "createddatetime": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 7,
+            "control": "property.innerText"
           },
           "updatedowner": {
             "type": "string"
