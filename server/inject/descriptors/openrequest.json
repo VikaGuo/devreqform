@@ -63,7 +63,7 @@
       "update": {
         "type": "none"
       },
-      "frameSelector": "#1508987942127",
+      "frameSelector": "[name='1508987942127']",
       "selectorAll": ".ListTable tbody tr"
     }
   },
