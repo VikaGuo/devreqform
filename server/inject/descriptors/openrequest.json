@@ -65,6 +65,11 @@
       },
       "frameSelector": "[name='1508994927606']",
       "selectorAll": ".ListTable tbody tr"
+    },
+    "isOpenRequest": {
+      "type": "identifier",
+      "selector": ".l-tree",
+      "control": "property.innerText"
     }
   },
   "connect": []
