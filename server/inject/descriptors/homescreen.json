@@ -27,7 +27,7 @@
     "isMasterDataExpanded": {
       "type": "identifier",
       "selector": "span",
-      "control": "property.innerHTML",
+      "control": "exists",
       "selectContains": "Asset Category(Master)"
     },
     "assetCatLink": {
