@@ -56,7 +56,10 @@
             "control": "property.innerText"
           },
           "updateddatetime": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 9,
+            "control": "property.innerText"
           }
         }
       },
