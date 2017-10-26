@@ -24,7 +24,8 @@
         "fn": "function(param){console.log(param);return param}",
         "selector": "div.l-body"
       },
-      "control": "property.innerHTML"
+      "control": "property.innerHTML",
+      "selectContains": "Asset Operations"
     },
     "isMasterDataExpanded": {
       "type": "identifier",
