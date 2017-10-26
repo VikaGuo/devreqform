@@ -49,15 +49,5 @@
       "control": "exists"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "errorMessage",
-        "isLogin"
-      ],
-      "screens": [
-        "login"
-      ]
-    }
-  ]
+  "connect": []
 }
