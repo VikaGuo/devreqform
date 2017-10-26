@@ -62,7 +62,8 @@
       },
       "update": {
         "type": "none"
-      }
+      },
+      "selectorAll": ".ListTable"
     }
   },
   "connect": []
