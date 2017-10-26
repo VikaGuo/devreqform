@@ -27,13 +27,6 @@
       "sourceScreenId": "app.login.loginclassic",
       "sourceAppId": "universaltemplates",
       "model": "login"
-    },
-    {
-      "id": "openrequest",
-      "name": "openrequest",
-      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
-      "sourceAppId": "universaltemplates",
-      "model": "tableviewadvancedcool"
     }
   ],
   "sourceAppId": "_blank",
