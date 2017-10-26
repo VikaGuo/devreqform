@@ -19,9 +19,9 @@
       "selectContains": "MasterData"
     },
     "expandMasterData": {
-      "type": "string",
+      "type": "action",
       "selector": "div.l-body",
-      "control": "property.innerHTML",
+      "control": "action.link",
       "selectContains": "MasterData"
     }
   },
