@@ -1,44 +1,139 @@
 {
-  "issueslist": [
-    {
-      "id": "0000506",
-      "severity": "minor",
-      "updated": "2017-06-20",
-      "status": "new",
-      "summary": "Pellentesque ut enim ac sem mollis pharetra quis id arcu. Donec facilisis diam quis eleifend rutrum.",
-      "assignedto": "Ryan Smith"
-    },
-    {
-      "id": "0000507",
-      "severity": "feature",
-      "updated": "2017-06-19",
-      "status": "assigned",
-      "summary": "Ut dignissim vitae metus sed lacinia. Cras pulvinar mauris leo",
-      "assignedto": "Lisa Wagner"
-    },
-    {
-      "id": "0000508",
-      "severity": "trivial",
-      "updated": "2017-06-14",
-      "status": "confirmed",
-      "summary": "In hac habitasse platea dictumst. Phasellus consequat bibendum blandit.",
-      "assignedto": "Dean Watts"
-    },
-    {
-      "id": "0000509",
-      "severity": "minor",
-      "updated": "2017-06-13",
-      "status": "resolved",
-      "summary": "Aliquam ac posuere nulla, vitae lacinia ligula. Vestibulum ante.",
-      "assignedto": "Sheila Steward"
-    },
-    {
-      "id": "0000510",
-      "severity": "minor",
-      "updated": "2017-06-12",
-      "status": "closed",
-      "summary": "Duis dictum ligula ut finibus pharetra.",
-      "assignedto": "Bradley Hall"
-    }
-  ]
+ "requestlist": [
+  {
+   "$i": 0
+  },
+  {
+   "$i": 1,
+   "tableid": "1",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160002",
+   "categoryname": "Computer",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/19/2016 12:49:50 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 1:18:59 PM"
+  },
+  {
+   "$i": 2,
+   "tableid": "2",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160003",
+   "categoryname": "Computer Spare Part",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 1:19:30 PM"
+  },
+  {
+   "$i": 3,
+   "tableid": "3",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160004",
+   "categoryname": "Monitor",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 1:19:19 PM"
+  },
+  {
+   "$i": 4,
+   "tableid": "5",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160006",
+   "categoryname": "Network Equipment",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 1:21:37 PM"
+  },
+  {
+   "$i": 5,
+   "tableid": "6",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160007",
+   "categoryname": "Telecom Equipment",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 1:21:52 PM"
+  },
+  {
+   "$i": 6,
+   "tableid": "7",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160008",
+   "categoryname": "Printer",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 1:44:25 PM"
+  },
+  {
+   "$i": 7,
+   "tableid": "8",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160009",
+   "categoryname": "Scanner",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 3:15:12 PM"
+  },
+  {
+   "$i": 8,
+   "tableid": "9",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160010",
+   "categoryname": "Printer Supplies",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 3:15:25 PM"
+  },
+  {
+   "$i": 9,
+   "tableid": "10",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160011",
+   "categoryname": "Projector",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 3:15:35 PM"
+  },
+  {
+   "$i": 10,
+   "tableid": "11",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160012",
+   "categoryname": "Camera",
+   "isactive": "1",
+   "createdowner": "150779",
+   "createddatetime": "7/27/2016 1:18:31 PM",
+   "updatedowner": "150779",
+   "updateddatetime": "7/27/2016 3:15:46 PM"
+  },
+  {
+   "$i": 11,
+   "tableid": "12",
+   "sidecode": "FLEX",
+   "categorycode": "SHZ160016",
+   "categoryname": "Server Equipment",
+   "isactive": "1",
+   "createdowner": "151194",
+   "createddatetime": "9/29/2016 11:46:00 AM",
+   "updatedowner": "151194",
+   "updateddatetime": "9/29/2016 12:03:14 PM"
+  }
+ ]
 }
