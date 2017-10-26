@@ -63,7 +63,7 @@
           }
         }
       },
-      "frameSelector": "[name=\"1509002287473\"]",
+      "frameSelector": "iframe",
       "selectorAll": ".ListTable tbody tr"
     },
     "isOpenRequest": {
