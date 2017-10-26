@@ -42,16 +42,16 @@
   "connect": [
     {
       "match": [
-        "ishomescreen"
-      ],
-      "action": "itAssetServiceSystemLink"
-    },
-    {
-      "match": [
         "ishomescreen",
         "isITAssetExanded"
       ],
       "action": "expandMasterData"
+    },
+    {
+      "match": [
+        "ishomescreen"
+      ],
+      "action": "itAssetServiceSystemLink"
     }
   ]
 }
