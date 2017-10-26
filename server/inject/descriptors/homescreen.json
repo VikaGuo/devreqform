@@ -21,7 +21,7 @@
     "expandMasterData": {
       "type": "string",
       "selector": {
-        "fn": "function(param){console.log(param);var foo=param.querySelectorAll('li');for(var i=0;i<foo.length;i+=1){console.log(foo[i])}return param}",
+        "fn": "function(param){console.log(param);var foo=param.querySelectorAll('li');for(var i=0;i<foo.length;i+=1){console.log(foo[i].innerText)}return param}",
         "selector": "ul[type='tree']"
       },
       "control": "property.innerHTML"
