@@ -73,5 +73,14 @@
       "selectContains": "Asset Category(Master)"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isOpenRequest"
+      ],
+      "screens": [
+        "openrequest"
+      ]
+    }
+  ]
 }
