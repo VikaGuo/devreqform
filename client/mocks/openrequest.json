@@ -1,44 +1,17 @@
 {
   "requestlist": [
     {
-      "rowid": "0000506",
-      "reqowner": "Pellentesque ut enim ac sem mollis pharetra quis id arcu. Donec facilisis diam quis eleifend rutrum.",
-      "sitecode": "new",
-      "formno": "minor",
-      "requestorname": "Ryan Smith",
-      "submitdate": "2017-06-20"
-    },
-    {
-      "rowid": "0000507",
-      "reqowner": "Ut dignissim vitae metus sed lacinia. Cras pulvinar mauris leo",
-      "sitecode": "assigned",
-      "formno": "feature",
-      "requestorname": "Lisa Wagner",
-      "submitdate": "2017-06-19"
-    },
-    {
-      "rowid": "0000508",
-      "reqowner": "In hac habitasse platea dictumst. Phasellus consequat bibendum blandit.",
-      "sitecode": "confirmed",
-      "formno": "trivial",
-      "requestorname": "Dean Watts",
-      "submitdate": "2017-06-14"
-    },
-    {
-      "rowid": "0000509",
-      "reqowner": "Aliquam ac posuere nulla, vitae lacinia ligula. Vestibulum ante.",
-      "sitecode": "resolved",
-      "formno": "minor",
-      "requestorname": "Sheila Steward",
-      "submitdate": "2017-06-13"
-    },
-    {
-      "rowid": "0000510",
-      "reqowner": "Duis dictum ligula ut finibus pharetra.",
-      "sitecode": "closed",
-      "formno": "minor",
-      "requestorname": "Bradley Hall",
-      "submitdate": "2017-06-12"
+      "rowid": "46839",
+      "reqowner": "Camille Tan",
+      "sitecode": "NSC",
+      "formno": "NSC_REQ2017090019",
+      "requestorname": "Camille Tan",
+      "submitdate": "2017-09-14",
+      "status": "Approving",
+      "pendingdate": "2017-10-09",
+      "pendingapprover": "Camille Tan",
+      "completeddate": "",
+      "applicationname": "New UI Design for AppCenter"
     }
   ]
 }
