@@ -42,14 +42,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.openrequest', {
-        views: {
-            app: {
-                controller: 'app_openrequest',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.openrequest');
-                }
-            }
-        }
     });
 });
