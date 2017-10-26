@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": "img[src='images/whm.gif']",
       "control": "exists"
+    },
+    "itAssetServiceSystemLink": {
+      "type": "action",
+      "selector": "img",
+      "control": "attrib.src"
     }
   },
   "connect": []
