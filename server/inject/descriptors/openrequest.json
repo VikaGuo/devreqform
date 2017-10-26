@@ -29,7 +29,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 3,
+            "control": "property.innerText"
           },
           "formno": {
             "type": "string",
