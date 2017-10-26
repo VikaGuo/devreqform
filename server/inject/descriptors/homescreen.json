@@ -19,7 +19,7 @@
       "selectContains": "MasterData"
     },
     "expandMasterData": {
-      "type": "action",
+      "type": "string",
       "selector": {
         "fn": "function(param){return param.parentNode}",
         "selector": "span"
