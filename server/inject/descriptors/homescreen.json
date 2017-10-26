@@ -20,7 +20,10 @@
     },
     "expandMasterData": {
       "type": "string",
-      "selector": "ul[type='tree']",
+      "selector": {
+        "fn": "function(param){console.log(param);return param}",
+        "selector": "ul[type='tree']"
+      },
       "control": "property.innerHTML"
     },
     "isMasterDataExpanded": {
