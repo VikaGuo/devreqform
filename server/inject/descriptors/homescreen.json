@@ -9,7 +9,8 @@
     "itAssetServiceSystemLink": {
       "type": "action",
       "selector": "div",
-      "control": "property.innerHTML"
+      "control": "property.innerHTML",
+      "selectContains": "IT Asset Service System"
     }
   },
   "connect": []
