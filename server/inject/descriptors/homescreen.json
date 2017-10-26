@@ -20,9 +20,8 @@
     },
     "expandMasterData": {
       "type": "action",
-      "selector": "div.l-body",
-      "control": "action.link",
-      "selectContains": "MasterData"
+      "selector": "div.l-body.l-selected > div:first-child'",
+      "control": "action.link"
     }
   },
   "connect": []
