@@ -64,7 +64,7 @@
         "type": "none"
       },
       "selectorAll": "#1508987942127",
-      "frameSelector": "1508987942127"
+      "frameSelector": "#1508987942127"
     }
   },
   "connect": []
