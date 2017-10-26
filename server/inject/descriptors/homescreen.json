@@ -15,7 +15,7 @@
     "isITAssetExanded": {
       "type": "identifier",
       "selector": "div.l-box.l-tree-icon.l-tree-icon-folder.",
-      "control": "action.link",
+      "control": "exists",
       "selectContains": "MasterData"
     }
   },
