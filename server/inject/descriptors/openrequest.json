@@ -36,7 +36,8 @@
           }
         }
       },
-      "selectorAll": "#ContentPlaceHolder1_GridView1"
+      "frameSelector": "[name='1508994927606']",
+      "selectorAll": ".ListTable tbody tr"
     }
   },
   "connect": []
