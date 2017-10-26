@@ -1,6 +1,48 @@
 {
   "type": "object",
   "comment": "issueslist",
-  "properties": {},
+  "properties": {
+    "requestlist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rowid": {
+            "type": "string"
+          },
+          "reqowner": {
+            "type": "string"
+          },
+          "sitecode": {
+            "type": "string"
+          },
+          "formno": {
+            "type": "string"
+          },
+          "requestorname": {
+            "type": "string"
+          },
+          "submitdate": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "pendingdate": {
+            "type": "string"
+          },
+          "pendingapprover": {
+            "type": "string"
+          },
+          "completeddate": {
+            "type": "string"
+          },
+          "applicationname": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
   "connect": []
 }
