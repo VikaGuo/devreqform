@@ -63,7 +63,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": ".ListTable"
+      "selectorAll": ".ListTable tbody tr"
     }
   },
   "connect": []
